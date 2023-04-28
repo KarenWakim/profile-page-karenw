@@ -1,0 +1,120 @@
+/* Write some CSS below : */
+
+/* 1. Global design first : Body, Headers, Colors, Fonts, Font size, Font weight */
+body {
+    background-color: #ebe9f5;
+    background-image: url(images/background.gif);
+    font-family: "Noto";
+    font-size: 22px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: justify;
+}
+
+h1 {
+    color: #fcb7a0;
+    background-color: #e7e2e1;
+    border: 1px solid #ffffff;
+}
+
+h2 h3 {
+    color: #a09593;
+}
+
+#btn-green {
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 10px;
+    background-color: #fcb7a0;
+    color: #a09593;
+    border: 2px solid #ffffff;
+}
+
+#btn-green:hover {
+    background-color: #a09593;
+    color: #fcb7a0;
+    border: 2px solid #ffffff;
+}
+
+img {
+    border-radius: 50%;
+    width: 200px;
+    border: 1px solid #ffffff;
+    font-size: 100px;
+}
+
+
+.banner {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(98, 90, 73);
+    border: 1px solid white;
+    max-width: 1000px;
+    text-align: center;
+    margin: 35px auto;
+    margin-bottom: 60px;
+    padding-bottom: 50px;
+}
+
+.card-pink {
+    background-image: linear-gradient(to right, #ffecd2 0%, #fcb69f 100%);
+    ;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px rgb(98, 90, 73);
+    border: 1px solid white;
+    max-width: 1000px;
+    margin: 10px auto;
+    margin-bottom: 60px;
+}
+
+.inline {
+    padding-bottom: 20px;
+    list-style: none;
+}
+
+.inline li {
+    display: inline;
+}
+
+.liste-inline {
+    list-style: none;
+    display: inline;
+    font-size: 50px;
+    color: #a09593;
+    letter-spacing: 20px;
+}
+
+.liste-inline a {
+    text-decoration: none;
+}
+
+.liste-inline i {
+    color: #a09593;
+    font-size: 60px;
+    padding: 20px;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.liste-inline i:hover {
+    transform: scale(1.5);
+}
+
+.card-hobbies h2 {
+    color: black;
+    font-size: 30px;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.liste-inline li {
+    display: inline;
+}
+
+
+
+/* 2. Appearance of html elements : Images, Links (buttons), Divs */
